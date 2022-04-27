@@ -25,7 +25,7 @@ const Main = () => {
         Add Record
       </button>
       <div className="scroll">
-        {AllData.length == 0 ? (
+        {AllData.length === 0 ? (
           <h1 className="Norecords">No Record</h1>
         ) : (
           AllData.map((ele, idx) => {
