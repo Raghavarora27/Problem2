@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import Main from "./Main";
+import Header from "./Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Main />
+      <a href="https://portfolio-raghav.vercel.app/" style={{position:"absolute",right:"20px",bottom:"15px",fontSize:"1.5rem"}} target="_blank"  rel="noreferrer">Portfolio</a>
     </div>
   );
 }

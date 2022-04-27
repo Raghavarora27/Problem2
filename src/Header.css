@@ -1,0 +1,21 @@
+.header{
+    height: 10vh;
+    width: 100vw;
+    background-color: #3e8e41;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.left{
+    position: absolute;
+    left: 10px;
+}
+.right{
+    position: absolute;
+    right: 10px;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
